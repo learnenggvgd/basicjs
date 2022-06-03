@@ -37,15 +37,27 @@
 //     j=1;
 // }
 
-var input = 4;
-var str="";
-var total=0;
-var i = 0;
+// var input = 4;
+// var str=0;
+// var total=0;
+// var i = 1;
 
+// while(i<=input){
+//     str+=input;
+//     console.log(+str);
+//     total+=Number(str);
+//     i++;
+// }
+// console.log("------------");
+// console.log("total="+total);
+
+var input = 3;
+var total=0;
+var i = 1;
+var sum = 0;
 while(i<=input){
-    str+=input;
-    console.log("str="+str);
-    total+=Number(str);
+    sum=sum*10+input;
+    total+=sum;
     i++;
 }
 console.log("------------");
