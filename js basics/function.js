@@ -1,7 +1,7 @@
 function add(num1,num2,num3){
     console.log("inside fun");
     var c =num1-num2;
-    var v=Math.abs(c);//math. function
+    var v=Math.abs(c);//math. function 
     console.log(v);
     return v;
 }
